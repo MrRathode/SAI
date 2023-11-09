@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f7f7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        a{
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .team-member {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            margin: 10px;
+            padding: 20px;
+            width: 280px;
+        }
+  
+        .team-member img {
+            max-width: 100%;
+            border-radius: 50%;
+        }
+        .team-member h3 {
+            font-size: 24px;
+            margin-top: 10px;
+        }
+    
+        .team-member:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>About Us</h1> <style> h1{
+            text-align: center;
+        }
+            </style>
+        <p>We are the creative minds behind this project. Get to know about us!</p>
+    </header>
+    
+ 
+    <div class="container">
+        <div class="team-member">
+            <img src="naveen.jpg" alt="Team Member 1">
+            <h3>Pathlavath Naveen Kumar</h3>
+            <h4>Mechatronics and Automation Engineering
+                     2001129</h4>
+                     <p>Developer</p>
+                     <p>pathlavath.mea.20129@iiitbh.ac.in</p>
+                     <a href="https://www.linkedin.com/in/naveenrathod111/">LinkedIn</a>
+        </div>
+        <div class="team-member">
+            <img src="bharath.jpeg" alt="Team Member 2">
+            <h3>Challakonda Bharath</h3>
+            <h4>Mechatronics and Automation Engineering
+                2001100</h4>
+            <p>Content Developer</p>
+            <p>Challakonda.mea.20100@iiitbh.ac.in</p>
+            <a href="https://www.linkedin.com/in/challakonda-b-1a0126176/">LinkedIn</a>
+         
+        </div>
+        <div class="team-member">
+            <img src="mohith.jpg" alt="Team Member 3">
+            <h3>Mathangi Mohith</h3>
+            <h4>Mechatronics and Automation Engineering
+                2001113</h4>
+            <p>Market Expert</p>
+            <p>mathangi.mea.20113@iiitbh.ac.in</p>
+            <a href="https://www.linkedin.com/in/mohith-mr-119-/">LinkedIn</a>
+        </div>
+        <div class="team-member">
+            <img src="ashok.jpg" alt="Team Member 4">
+            <h3>Pittala Ashok</h3>
+            <h4>Mechatronics and Automation Engineering
+                2001095</h4>
+            <p>Designer</p>
+            <p>pittala.mea.20095@iiitbh.ac.in</p>
+            <a href="https://www.linkedin.com/in/pittala-ashok-31a411207/">LinkedIn</a>
+        </div>
+    </div>
+
+  
+    <script>
+        const teamMembers = document.querySelectorAll('.team-member');
+        teamMembers.forEach((member) => {
+            member.addEventListener('mouseover', () => {
+                member.style.transform = 'scale(1.05)';
+            });
+            member.addEventListener('mouseout', () => {
+                member.style.transform = 'scale(1)';
+            });
+        });
+    </script>
+</body>
+</html>
