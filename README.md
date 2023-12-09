@@ -13,7 +13,7 @@ Welcome to the Social Media Survey Website! This project was created as part of 
 This project was a collaborative effort by a team of four talented individuals:
 
 - Pathlavath Naveen Kumar (https://github.com/MrRathode):   Developer
-- Challakonda Bharath (https://github.com/Ashok966):     Content Developer
+- Challakonda Bharath (https://github.com/Chbharath002):  Content Developer
 - Mathangi Mohith (https://github.com/Mhnjk1):        Market Expert
 - Pittala Ashok (https://github.com/Ashok966)):     Designer
 
